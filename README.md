@@ -21,3 +21,4 @@ pip install pyserial
 
 # References
 - [pyserial](https://pip.pypa.io/en/stable/installing/)
+- [First Version to Linux, Pedro Minatel](https://github.com/pedrominatel/py_serial_datalogger)
