@@ -3,7 +3,7 @@
 from datetime import datetime
 import serial
 
-serial_ob = serial.Serial(port="/dev/ttyUSB0",baudrate=115200)
+serial_ob = serial.Serial(port='COM5', baudrate=115200)
 filename = datetime.now().strftime("datalog_%Y%m%d_%H%M%S")
 
 try:
