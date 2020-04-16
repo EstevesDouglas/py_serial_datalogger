@@ -8,7 +8,7 @@ serial_ob = serial.Serial(port='COM5', baudrate=115200)
 filename = datetime.now().strftime('datalog_%Y%m%d_%H%M%S')
 
 time.sleep( 1 )
-serial_ob.write(b'AT+START\n\r')
+serial_ob.write(b'AT+START\r')
 time.sleep( 1 )
 
 try:
